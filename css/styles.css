@@ -26,19 +26,31 @@ font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
 }
 .tittle-image{
-  width: 60%;
-  transform: rotate(15deg);
-  margin-top: 90px;
-
+  width: 55%;
+  transform: rotate(21deg);
+  /* margin-top: 90px; */
+  position: relative;
+  top: 180px;
+  z-index: 0;
+  left: -10px;
+ 
 }
 .btn1{
 padding: 10px;
   margin: 0px 3px;
 }
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding-top: 2%;
+  
+}
 .feature-box{
    text-align: center;
    padding:  5%;
 }
+
 .hthird{
   font-family: 'Montserrat-Bold', sans-serif;
   font-size:1.9rem;
@@ -86,12 +98,16 @@ padding: 10px;
 }
 .press-logo{
   width: 12%;
-  margin: 0 5px;
+  margin: 0px 5px;
 }
 .testimonial-image{
   width: 15%;
   border-radius: 100%;
    margin:2% 2% ; 
+}
+
+.cov{
+  background-color: #ef8172;
 }
 #pricing{
   padding: 5%;
@@ -106,5 +122,52 @@ padding: 10px;
 .card-part{
   text-align: center;
   padding: 3%;
-   background-color: #f4f4f4;  
+   background-color: #f4f4f4; 
+    
+}
+#cta{
+  background-color:#ff4c68;
+   font-family: 'Montserrat', sans-serif; 
+    color: #fff;
+    font-size: small;
+   padding: 4% 0%;
+   text-align: center;
+ 
+}
+.h3_cta{
+  font-size: 2.1rem;
+  margin: 2%;
+}
+.btn2{
+  padding: 10px;
+    margin: 0px 9px;
+  }
+  #footer{
+    padding: 4% 0% 0% 0%;
+    text-align: center;
+   
+
+  }
+  .footer_icon{
+    margin:20px 10px;
+  }
+@media (max-width: 990px )
+{
+ 
+  #title{
+    text-align: center;
+  }
+  .tittle-image{
+    width: 35%;
+    transform: rotate(0);
+    /* margin-top: 90px; */
+    margin-top: 10%;
+    top: 0px;
+    
+   
+  }
+    
+}
+
+    
 }
